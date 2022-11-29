@@ -16,6 +16,7 @@ function MovieForm() {
 
   function handleSubmit(e) {
     e.preventDefault();
+    
     fetch("/movies", {
       method: "POST",
       headers: {
